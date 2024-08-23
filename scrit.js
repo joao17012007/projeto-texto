@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "O Corinthians será um dos times mais fortes da América do Sul, ganhando títulos importantes.",
-                afirmação: "O Corinthians será um dos times mais fortes da América do Sul, ganhando títulos importantes em competições internacionais."
+                afirmacao: "O Corinthians será um dos times mais fortes da América do Sul, ganhando títulos importantes em competições internacionais."
             },
             {
                 texto: "O Corinthians terá dificuldades em competições internacionais, raramente passando da fase de grupos.",
-                afirmação: "O Corinthians terá dificuldades em competições internacionais, raramente passando da fase de grupos. "
+                afirmacao: "O Corinthians terá dificuldades em competições internacionais, raramente passando da fase de grupos. "
             }
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto:  "O clube vai conseguir equilibrar suas finanças, aumentando receitas e diminuindo dívidas.",
-                afirmação: "O clube vai conseguir equilibrar suas finanças, aumentando receitas e diminuindo dívidas."
+                afirmacao: "O clube vai conseguir equilibrar suas finanças, aumentando receitas e diminuindo dívidas."
             },
             {
                 texto: "O Corinthians continuará enfrentando problemas financeiros, acumulando dívidas e atrasando salários.",
-                afirmação: "O clube continuará enfrentando problemas financeiros, acumulando dívidas e atrasando salários."
+                afirmaca: "O clube continuará enfrentando problemas financeiros, acumulando dívidas e atrasando salários."
             }
         ]
 
@@ -37,11 +37,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "As categorias de base revelarão novos talentos que se destacarão no time principal e até no cenário internacional.",
-                afirmação: " As categorias de base revelarão novos talentos que se destacarão no time principal e até no cenário internacional."
+                afirmacao: " As categorias de base revelarão novos talentos que se destacarão no time principal e até no cenário internacional."
             },
             {
                 texto: "As categorias de base enfrentarão dificuldades para formar jogadores de destaque, impactando negativamente o time principal.",
-                afirmação: "s categorias de base enfrentarão dificuldades para formar jogadores de destaque, impactando negativamente o time principal. "
+                afirmacao: "s categorias de base enfrentarão dificuldades para formar jogadores de destaque, impactando negativamente o time principal. "
             }
         ]
     },
@@ -50,12 +50,12 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A torcida continuará sendo um dos pilares de apoio, incentivando e mobilizando o time em momentos cruciais.",
-                afirmação: "A torcida continuará sendo um dos pilares de apoio, incentivando e mobilizando o time em momentos cruciais."
+                afirmacao: "A torcida continuará sendo um dos pilares de apoio, incentivando e mobilizando o time em momentos cruciais."
             },
             {
                 texto: "A torcida ficará desiludida com os resultados, reduzindo sua presença nos estádios e seu apoio ao clube.",
         
-                afirmação:  "A torcida ficará desiludida com os resultados, reduzindo sua presença nos estádios e seu apoio ao clube."
+                afirmacao:  "A torcida ficará desiludida com os resultados, reduzindo sua presença nos estádios e seu apoio ao clube."
             }
         ]
     },
@@ -64,11 +64,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A infraestrutura e o estádio continuarão evoluindo, proporcionando uma melhor experiência para jogadores e torcedores.",
-                afirmação: "A infraestrutura e o estádio continuarão evoluindo, proporcionando uma melhor experiência para jogadores e torcedores."
+                afirmacao: "A infraestrutura e o estádio continuarão evoluindo, proporcionando uma melhor experiência para jogadores e torcedores."
             },
             {
                 texto: "A infraestrutura e o estádio enfrentarão problemas de manutenção, gerando críticas e insatisfação entre os torcedores.",
-                afirmação: "A infraestrutura e o estádio enfrentarão problemas de manutenção, gerando críticas e insatisfação entre os torcedores."
+                afirmacao: "A infraestrutura e o estádio enfrentarão problemas de manutenção, gerando críticas e insatisfação entre os torcedores."
             }
         ]
     },
@@ -99,7 +99,7 @@ function mostraAlternativas(){
 }
 
 function respostaSelecionada(opcaoSelecionada) {
-    const afirmacoes = opcaoSelecionada.afirmação;
+    const afirmacoes = opcaoSelecionada.afirmacao;
     historiaFinal += afirmacoes + " ";
     atual++;
     mostraPergunta();
